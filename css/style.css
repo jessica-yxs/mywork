@@ -13,7 +13,7 @@ body {
 .head-box {
   /* 加了flex之后，left盒子本来宽占100%，现在只占所需宽 */
   display: flex;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   justify-content: space-between;
 }
 
@@ -31,6 +31,10 @@ h1 {
 
 .head-icon {
   height: 70px;
+}
+
+.head-box p {
+  background-color: rgb(239, 236, 201);
 }
 
 .top-banner li {
